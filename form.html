@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styleform.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="form.html">Form</a>
+            <a href="media.html">Media</a>
+        </nav>
+        
+    </header>
+    <h1>Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>User Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email"><br><br>
+            <label for="paaword">Password:</label>
+            <input type="password" name="password"><br><br>
+            <label for="message">Message:</label>
+            <textarea name="message" cols="30" rows="5"></textarea><br><br>
+            <label for="gender">Gender:</label>
+            <select>
+            <optgroup label="choose">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </optgroup>
+            </select><br><br>
+            <label for="option">option:</label>
+            <input list="skills">
+            <datalist id="skills">
+                <option value="HTML">
+                <option value="CSS">
+            </datalist><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+        
+    </form>
+   
+    <footer id="footer">
+        <p>&copy <time datetime="2026">2026</time></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #0a4d8c;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+ h1{
+    color: #0a4d8c;
+    text-align: center;
+ }
+nav {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+
+
+/* Form container */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Fieldset and legend */
+fieldset {
+    border: 2px solid #0a4d8c;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #0a4d8c;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+/* Inputs, textarea, select */
+input,
+textarea,
+select {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Button */
+button {
+    background-color: #0a4d8c;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #083b6d;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0a4d8c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
